@@ -140,11 +140,13 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_AudioSource.Play();
         }
 
-
+        // Controls Audio for each footstep. Does not seem to affect gameplay.
         private void ProgressStepCycle(float speed)
         {
+            // If the character is moving
             if (m_CharacterController.velocity.sqrMagnitude > 0 && (m_Input.x != 0 || m_Input.y != 0))
             {
+                
                 m_StepCycle += (m_CharacterController.velocity.magnitude + (speed*(m_IsWalking ? 1f : m_RunstepLenghten)))*
                              Time.fixedDeltaTime;
             }
@@ -159,7 +161,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             PlayFootStepAudio();
         }
 
-
+        // Calls the audio based on what footstep sound was played last.
         private void PlayFootStepAudio()
         {
             if (!m_CharacterController.isGrounded)
@@ -176,10 +178,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_FootstepSounds[0] = m_AudioSource.clip;
         }
 
-
+        // This entire section is pointless. Dont worry.
         private void UpdateCameraPosition(float speed)
         {
             Vector3 newCameraPosition;
+            // We are not using headbob... returns.
             if (!m_UseHeadBob)
             {
                 return;
@@ -201,11 +204,12 @@ namespace UnityStandardAssets.Characters.FirstPerson
         }
 
 
+        // Read in imput via wasd. 
         private void GetInput(out float speed)
         {
-            // Read input
-            float horizontal = CrossPlatformInputManager.GetAxis("Horizontal");
-            float vertical = CrossPlatformInputManager.GetAxis("Vertical");
+            // Read input.
+            float horizontal = CrossPlatformInputManager.GetAxisRaw("Horizontal");
+            float vertical = CrossPlatformInputManager.GetAxisRaw("Vertical");
 
             bool waswalking = m_IsWalking;
 
