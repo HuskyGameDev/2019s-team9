@@ -14,20 +14,21 @@ public class LevelTransition : MonoBehaviour
     ///     Gameplay    = 3
     /// </summary>
     /// <param name="scene_index">Scene index.</param>
+
+
     public void LoadScene (int scene_index)
     {
         SceneManager.LoadScene (scene_index);
     }
 
-    /// <summary>
-    /// Quits the game.
-    /// </summary>
-    public void QuitGame()
-    {
-        Application.Quit();
-    }
 
     public GameManager GM;
+    int index = -1;
+
+    void Start() {
+        index = SceneManager.GetActiveScene().buildIndex;
+
+    }
 	
 	// Update is called once per frame
 	void Update ()
@@ -38,6 +39,15 @@ public class LevelTransition : MonoBehaviour
 			GM.TogglePauseMenu();
 		}
 		*/
+    }
+
+    void OnTriggerEnter() {
+
+        print(index);
+        if (index == 0)
+            SceneManager.LoadScene (1);
+        else if (index == 1)
+            SceneManager.LoadScene (0);
     }
 
 
