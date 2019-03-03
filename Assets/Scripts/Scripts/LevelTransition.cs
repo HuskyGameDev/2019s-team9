@@ -22,23 +22,11 @@ public class LevelTransition : MonoBehaviour
     }
 
 
-    public GameManager GM;
     int index = -1;
 
     void Start() {
         index = SceneManager.GetActiveScene().buildIndex;
 
-    }
-	
-	// Update is called once per frame
-	void Update ()
-	{
-		/*
-	    if (Input.GetButtonDown("Cancel"))     
-		{
-			GM.TogglePauseMenu();
-		}
-		*/
     }
 
     void OnTriggerEnter() {
