@@ -1,11 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{1E52F4C4-2B89-6C68-69D4-23DDEB52F2EE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{EA2B61A5-CBA6-78DC-6071-DEB82801542C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{19FA7910-6584-5B85-37F0-7AD8E18B04E5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{1E66B8E2-2510-08EE-1700-79B5E4BF72DE}"
 EndProject
@@ -19,14 +15,6 @@ Global
 		{1E52F4C4-2B89-6C68-69D4-23DDEB52F2EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E52F4C4-2B89-6C68-69D4-23DDEB52F2EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E52F4C4-2B89-6C68-69D4-23DDEB52F2EE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EA2B61A5-CBA6-78DC-6071-DEB82801542C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EA2B61A5-CBA6-78DC-6071-DEB82801542C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EA2B61A5-CBA6-78DC-6071-DEB82801542C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EA2B61A5-CBA6-78DC-6071-DEB82801542C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{19FA7910-6584-5B85-37F0-7AD8E18B04E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{19FA7910-6584-5B85-37F0-7AD8E18B04E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{19FA7910-6584-5B85-37F0-7AD8E18B04E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{19FA7910-6584-5B85-37F0-7AD8E18B04E5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1E66B8E2-2510-08EE-1700-79B5E4BF72DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1E66B8E2-2510-08EE-1700-79B5E4BF72DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E66B8E2-2510-08EE-1700-79B5E4BF72DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -34,5 +22,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
