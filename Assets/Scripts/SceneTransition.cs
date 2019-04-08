@@ -7,7 +7,7 @@ public class SceneTransition : MonoBehaviour
 {
     /// <summary>
     /// Loads the scene.
-    /// The scene indexes are as follows:
+    /// The scene indexes are as follows (Subject to change as production progresses):
     ///     MainMenu    = 0
     ///     LevelSelect = 1
     ///     QuitGame    = 2

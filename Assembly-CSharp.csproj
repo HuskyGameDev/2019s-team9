@@ -75,6 +75,7 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\Scripts\AbilityDisabler.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\PersistentGameObject.cs" />
@@ -86,11 +87,11 @@
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>C:/Users/amerdzinski/Documents/HGD 2019/2019s-team9/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/amerdzinski/Documents/HGD 2019/2019s-team9/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>C:/Users/amerdzinski/Documents/HGD 2019/2019s-team9/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Users/amerdzinski/Documents/HGD 2019/2019s-team9/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>C:/Users/amerdzinski/Documents/HGD 2019/2019s-team9/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
