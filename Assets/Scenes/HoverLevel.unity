@@ -190,6 +190,7 @@ GameObject:
   - component: {fileID: 29472869}
   - component: {fileID: 29472868}
   - component: {fileID: 29472867}
+  - component: {fileID: 29472872}
   - component: {fileID: 29472871}
   m_Layer: 0
   m_Name: Cube (7)
@@ -276,6 +277,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &29472872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 29472866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_x: -67
+  m_y: 244
+  m_z: -37
 --- !u!1 &32516195
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,8 +368,8 @@ GameObject:
   - component: {fileID: 40772326}
   - component: {fileID: 40772325}
   - component: {fileID: 40772324}
-  - component: {fileID: 40772323}
   - component: {fileID: 40772322}
+  - component: {fileID: 40772323}
   m_Layer: 0
   m_Name: Laser (11)
   m_TagString: Untagged
@@ -370,9 +385,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 40772321}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -57
+  m_y: 325
+  m_z: 57
 --- !u!114 &40772323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -535,8 +553,8 @@ GameObject:
   - component: {fileID: 103385494}
   - component: {fileID: 103385493}
   - component: {fileID: 103385492}
-  - component: {fileID: 103385491}
   - component: {fileID: 103385490}
+  - component: {fileID: 103385491}
   m_Layer: 0
   m_Name: Laser (17)
   m_TagString: Untagged
@@ -552,9 +570,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 103385489}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -57
+  m_y: 325
+  m_z: 57
 --- !u!114 &103385491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -651,8 +672,8 @@ GameObject:
   - component: {fileID: 124546380}
   - component: {fileID: 124546379}
   - component: {fileID: 124546378}
-  - component: {fileID: 124546377}
   - component: {fileID: 124546376}
+  - component: {fileID: 124546377}
   m_Layer: 0
   m_Name: Laser (5)
   m_TagString: Untagged
@@ -668,9 +689,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 124546375}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -57
+  m_y: 325
+  m_z: 57
 --- !u!114 &124546377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1352,8 +1376,8 @@ GameObject:
   - component: {fileID: 194881610}
   - component: {fileID: 194881609}
   - component: {fileID: 194881608}
-  - component: {fileID: 194881607}
   - component: {fileID: 194881606}
+  - component: {fileID: 194881607}
   m_Layer: 0
   m_Name: Laser (11)
   m_TagString: Untagged
@@ -1369,9 +1393,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 194881605}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: 0
+  m_y: 0
+  m_z: 0
 --- !u!114 &194881607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1902,8 +1929,8 @@ GameObject:
   - component: {fileID: 334804857}
   - component: {fileID: 334804856}
   - component: {fileID: 334804855}
-  - component: {fileID: 334804859}
   - component: {fileID: 334804860}
+  - component: {fileID: 334804859}
   m_Layer: 0
   m_Name: Cube (21)
   m_TagString: Untagged
@@ -2002,9 +2029,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 334804854}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -67
+  m_y: 244
+  m_z: -37
 --- !u!1 &356765201
 GameObject:
   m_ObjectHideFlags: 0
@@ -2290,8 +2320,8 @@ GameObject:
   - component: {fileID: 389363423}
   - component: {fileID: 389363422}
   - component: {fileID: 389363421}
-  - component: {fileID: 389363420}
   - component: {fileID: 389363419}
+  - component: {fileID: 389363420}
   m_Layer: 0
   m_Name: Laser (25)
   m_TagString: Untagged
@@ -2307,9 +2337,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 389363418}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -57
+  m_y: 325
+  m_z: 57
 --- !u!114 &389363420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2489,9 +2522,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 404848498}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -57
+  m_y: 325
+  m_z: 57
 --- !u!114 &404848500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2756,9 +2792,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 413022106}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -67
+  m_y: 244
+  m_z: -37
 --- !u!1 &418786451
 GameObject:
   m_ObjectHideFlags: 0
@@ -2921,8 +2960,8 @@ GameObject:
   - component: {fileID: 499311003}
   - component: {fileID: 499311002}
   - component: {fileID: 499311001}
-  - component: {fileID: 499311000}
   - component: {fileID: 499310999}
+  - component: {fileID: 499311000}
   m_Layer: 0
   m_Name: Laser (2)
   m_TagString: Untagged
@@ -2938,9 +2977,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 499310998}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: 0
+  m_y: 0
+  m_z: 0
 --- !u!114 &499311000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3325,7 +3367,7 @@ Transform:
   m_Children:
   - {fileID: 1938140639}
   m_Father: {fileID: 895395749}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &536190410
 MonoBehaviour:
@@ -3335,9 +3377,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 536190404}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -5
+  m_y: 325
+  m_z: 57
 --- !u!1 &538264450
 GameObject:
   m_ObjectHideFlags: 0
@@ -3349,6 +3394,7 @@ GameObject:
   - component: {fileID: 538264453}
   - component: {fileID: 538264452}
   - component: {fileID: 538264451}
+  - component: {fileID: 538264456}
   - component: {fileID: 538264455}
   m_Layer: 0
   m_Name: Cube (8)
@@ -3435,6 +3481,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &538264456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 538264450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_x: -67
+  m_y: 244
+  m_z: -37
 --- !u!1 &554520554
 GameObject:
   m_ObjectHideFlags: 0
@@ -3618,7 +3678,7 @@ Transform:
   m_LocalScale: {x: 50, y: 10, z: 0.5}
   m_Children: []
   m_Father: {fileID: 895395749}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &594257982
 GameObject:
@@ -3716,8 +3776,8 @@ GameObject:
   - component: {fileID: 609451123}
   - component: {fileID: 609451122}
   - component: {fileID: 609451121}
-  - component: {fileID: 609451125}
   - component: {fileID: 609451126}
+  - component: {fileID: 609451125}
   m_Layer: 0
   m_Name: Cube (22)
   m_TagString: Untagged
@@ -3816,9 +3876,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 609451120}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -67
+  m_y: 244
+  m_z: -37
 --- !u!1 &610680776
 GameObject:
   m_ObjectHideFlags: 0
@@ -4434,8 +4497,8 @@ GameObject:
   - component: {fileID: 706702319}
   - component: {fileID: 706702318}
   - component: {fileID: 706702317}
-  - component: {fileID: 706702321}
   - component: {fileID: 706702322}
+  - component: {fileID: 706702321}
   m_Layer: 0
   m_Name: Cube (23)
   m_TagString: Untagged
@@ -4534,9 +4597,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 706702316}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -67
+  m_y: 244
+  m_z: -37
 --- !u!1 &711958208
 GameObject:
   m_ObjectHideFlags: 0
@@ -4650,9 +4716,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 711958208}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: 0
+  m_y: 385
+  m_z: 2
 --- !u!1 &717232458
 GameObject:
   m_ObjectHideFlags: 0
@@ -4749,8 +4818,8 @@ GameObject:
   - component: {fileID: 742184988}
   - component: {fileID: 742184987}
   - component: {fileID: 742184986}
-  - component: {fileID: 742184990}
   - component: {fileID: 742184991}
+  - component: {fileID: 742184990}
   m_Layer: 0
   m_Name: Cube (24)
   m_TagString: Untagged
@@ -4849,9 +4918,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 742184985}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -67
+  m_y: 244
+  m_z: -37
 --- !u!1 &749719423
 GameObject:
   m_ObjectHideFlags: 0
@@ -5232,9 +5304,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 769372545}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: 17
+  m_y: 52
+  m_z: 38
 --- !u!114 &769372547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5331,8 +5406,8 @@ GameObject:
   - component: {fileID: 790350350}
   - component: {fileID: 790350349}
   - component: {fileID: 790350348}
-  - component: {fileID: 790350347}
   - component: {fileID: 790350346}
+  - component: {fileID: 790350347}
   m_Layer: 0
   m_Name: Laser (6)
   m_TagString: Untagged
@@ -5348,9 +5423,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 790350345}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: 0
+  m_y: 0
+  m_z: 0
 --- !u!114 &790350347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5631,8 +5709,8 @@ GameObject:
   - component: {fileID: 806381842}
   - component: {fileID: 806381841}
   - component: {fileID: 806381840}
-  - component: {fileID: 806381839}
   - component: {fileID: 806381838}
+  - component: {fileID: 806381839}
   m_Layer: 0
   m_Name: Laser (3)
   m_TagString: Untagged
@@ -5648,9 +5726,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 806381837}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -57
+  m_y: 325
+  m_z: 57
 --- !u!114 &806381839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6064,10 +6145,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1578534621}
-  - {fileID: 1335369281}
   - {fileID: 1833622456}
   - {fileID: 579532441}
   - {fileID: 536190409}
+  - {fileID: 1335369281}
   - {fileID: 1599946203}
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -6168,8 +6249,8 @@ GameObject:
   - component: {fileID: 948447738}
   - component: {fileID: 948447737}
   - component: {fileID: 948447736}
-  - component: {fileID: 948447735}
   - component: {fileID: 948447734}
+  - component: {fileID: 948447735}
   m_Layer: 0
   m_Name: Laser (9)
   m_TagString: Untagged
@@ -6185,9 +6266,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 948447733}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -57
+  m_y: 325
+  m_z: 57
 --- !u!114 &948447735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6540,7 +6624,6 @@ GameObject:
   - component: {fileID: 978361320}
   - component: {fileID: 978361319}
   - component: {fileID: 978361318}
-  - component: {fileID: 978361317}
   m_Layer: 0
   m_Name: Laser (2)
   m_TagString: Untagged
@@ -6548,17 +6631,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &978361317
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 978361316}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &978361318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6655,8 +6727,8 @@ GameObject:
   - component: {fileID: 989000627}
   - component: {fileID: 989000626}
   - component: {fileID: 989000625}
-  - component: {fileID: 989000629}
   - component: {fileID: 989000630}
+  - component: {fileID: 989000629}
   m_Layer: 0
   m_Name: Cube (19)
   m_TagString: Untagged
@@ -6755,9 +6827,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 989000624}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -67
+  m_y: 244
+  m_z: -37
 --- !u!1 &1000510190
 GameObject:
   m_ObjectHideFlags: 0
@@ -6769,6 +6844,7 @@ GameObject:
   - component: {fileID: 1000510193}
   - component: {fileID: 1000510192}
   - component: {fileID: 1000510191}
+  - component: {fileID: 1000510195}
   m_Layer: 0
   m_Name: Cube (6)
   m_TagString: Untagged
@@ -6843,6 +6919,20 @@ Transform:
   m_Father: {fileID: 1447814343}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1000510195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1000510190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_x: -67
+  m_y: 244
+  m_z: -37
 --- !u!1 &1008224248
 GameObject:
   m_ObjectHideFlags: 0
@@ -6939,8 +7029,8 @@ GameObject:
   - component: {fileID: 1032192795}
   - component: {fileID: 1032192794}
   - component: {fileID: 1032192793}
-  - component: {fileID: 1032192792}
   - component: {fileID: 1032192791}
+  - component: {fileID: 1032192792}
   m_Layer: 0
   m_Name: Laser (15)
   m_TagString: Untagged
@@ -6956,9 +7046,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1032192790}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -57
+  m_y: 325
+  m_z: 57
 --- !u!114 &1032192792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7134,7 +7227,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-56152
+  m_Name: pb_Mesh67930
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -7647,9 +7740,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1137717876}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -67
+  m_y: 244
+  m_z: -37
 --- !u!1 &1141089925
 GameObject:
   m_ObjectHideFlags: 0
@@ -7727,8 +7823,8 @@ GameObject:
   - component: {fileID: 1150534894}
   - component: {fileID: 1150534893}
   - component: {fileID: 1150534892}
-  - component: {fileID: 1150534891}
   - component: {fileID: 1150534890}
+  - component: {fileID: 1150534891}
   m_Layer: 0
   m_Name: Laser (7)
   m_TagString: Untagged
@@ -7760,9 +7856,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1150534889}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -59
+  m_y: 323
+  m_z: 2
 --- !u!136 &1150534892
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7928,8 +8027,8 @@ GameObject:
   - component: {fileID: 1163533818}
   - component: {fileID: 1163533817}
   - component: {fileID: 1163533816}
-  - component: {fileID: 1163533815}
   - component: {fileID: 1163533814}
+  - component: {fileID: 1163533815}
   m_Layer: 0
   m_Name: Laser (4)
   m_TagString: Untagged
@@ -7961,9 +8060,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1163533813}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -59
+  m_y: 323
+  m_z: 2
 --- !u!136 &1163533816
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8044,8 +8146,8 @@ GameObject:
   - component: {fileID: 1167137460}
   - component: {fileID: 1167137459}
   - component: {fileID: 1167137458}
-  - component: {fileID: 1167137457}
   - component: {fileID: 1167137456}
+  - component: {fileID: 1167137457}
   m_Layer: 0
   m_Name: Laser (7)
   m_TagString: Untagged
@@ -8061,9 +8163,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1167137455}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -57
+  m_y: 325
+  m_z: 57
 --- !u!114 &1167137457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8160,8 +8265,8 @@ GameObject:
   - component: {fileID: 1167881660}
   - component: {fileID: 1167881659}
   - component: {fileID: 1167881658}
-  - component: {fileID: 1167881657}
   - component: {fileID: 1167881656}
+  - component: {fileID: 1167881657}
   m_Layer: 0
   m_Name: Laser (21)
   m_TagString: Untagged
@@ -8177,9 +8282,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1167881655}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -57
+  m_y: 325
+  m_z: 57
 --- !u!114 &1167881657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8342,8 +8450,8 @@ GameObject:
   - component: {fileID: 1215189616}
   - component: {fileID: 1215189615}
   - component: {fileID: 1215189614}
-  - component: {fileID: 1215189613}
   - component: {fileID: 1215189612}
+  - component: {fileID: 1215189613}
   m_Layer: 0
   m_Name: Laser (5)
   m_TagString: Untagged
@@ -8359,9 +8467,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1215189611}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: 0
+  m_y: 0
+  m_z: 0
 --- !u!114 &1215189613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8988,7 +9099,7 @@ Transform:
   m_LocalScale: {x: 22, y: 0.5, z: 20}
   m_Children: []
   m_Father: {fileID: 895395749}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1335369282
 BoxCollider:
@@ -9140,8 +9251,8 @@ GameObject:
   - component: {fileID: 1352025804}
   - component: {fileID: 1352025803}
   - component: {fileID: 1352025802}
-  - component: {fileID: 1352025801}
   - component: {fileID: 1352025800}
+  - component: {fileID: 1352025801}
   m_Layer: 0
   m_Name: Laser (13)
   m_TagString: Untagged
@@ -9157,9 +9268,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1352025799}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -57
+  m_y: 325
+  m_z: 57
 --- !u!114 &1352025801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9256,8 +9370,8 @@ GameObject:
   - component: {fileID: 1366278127}
   - component: {fileID: 1366278126}
   - component: {fileID: 1366278125}
-  - component: {fileID: 1366278124}
   - component: {fileID: 1366278123}
+  - component: {fileID: 1366278124}
   m_Layer: 0
   m_Name: Laser (23)
   m_TagString: Untagged
@@ -9273,9 +9387,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1366278122}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -57
+  m_y: 325
+  m_z: 57
 --- !u!114 &1366278124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9372,8 +9489,8 @@ GameObject:
   - component: {fileID: 1373386514}
   - component: {fileID: 1373386513}
   - component: {fileID: 1373386512}
-  - component: {fileID: 1373386511}
   - component: {fileID: 1373386510}
+  - component: {fileID: 1373386511}
   m_Layer: 0
   m_Name: Laser (8)
   m_TagString: Untagged
@@ -9389,9 +9506,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1373386509}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: 0
+  m_y: 0
+  m_z: 0
 --- !u!114 &1373386511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9573,6 +9693,7 @@ GameObject:
   - component: {fileID: 1389387001}
   - component: {fileID: 1389387000}
   - component: {fileID: 1389386999}
+  - component: {fileID: 1389387004}
   - component: {fileID: 1389387003}
   m_Layer: 0
   m_Name: Cube (5)
@@ -9659,6 +9780,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1389387004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1389386998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_x: -67
+  m_y: 244
+  m_z: -37
 --- !u!1 &1402232521
 GameObject:
   m_ObjectHideFlags: 0
@@ -9753,9 +9888,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1402232521}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -67
+  m_y: 244
+  m_z: -37
 --- !u!1 &1425452022
 GameObject:
   m_ObjectHideFlags: 0
@@ -10128,8 +10266,8 @@ GameObject:
   - component: {fileID: 1439665276}
   - component: {fileID: 1439665275}
   - component: {fileID: 1439665274}
-  - component: {fileID: 1439665273}
   - component: {fileID: 1439665272}
+  - component: {fileID: 1439665273}
   m_Layer: 0
   m_Name: Laser (9)
   m_TagString: Untagged
@@ -10145,9 +10283,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1439665271}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: 0
+  m_y: 0
+  m_z: 0
 --- !u!114 &1439665273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10362,8 +10503,8 @@ GameObject:
   - component: {fileID: 1500393260}
   - component: {fileID: 1500393259}
   - component: {fileID: 1500393258}
-  - component: {fileID: 1500393257}
   - component: {fileID: 1500393256}
+  - component: {fileID: 1500393257}
   m_Layer: 0
   m_Name: Laser (4)
   m_TagString: Untagged
@@ -10379,9 +10520,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1500393255}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: 0
+  m_y: 0
+  m_z: 0
 --- !u!114 &1500393257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11420,8 +11564,8 @@ GameObject:
   - component: {fileID: 1537228253}
   - component: {fileID: 1537228252}
   - component: {fileID: 1537228251}
-  - component: {fileID: 1537228250}
   - component: {fileID: 1537228249}
+  - component: {fileID: 1537228250}
   m_Layer: 0
   m_Name: Laser (1)
   m_TagString: Untagged
@@ -11437,9 +11581,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1537228248}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -57
+  m_y: 325
+  m_z: 57
 --- !u!114 &1537228250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11706,8 +11853,8 @@ GameObject:
   - component: {fileID: 1584300216}
   - component: {fileID: 1584300215}
   - component: {fileID: 1584300214}
-  - component: {fileID: 1584300213}
   - component: {fileID: 1584300212}
+  - component: {fileID: 1584300213}
   m_Layer: 0
   m_Name: Laser (19)
   m_TagString: Untagged
@@ -11723,9 +11870,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1584300211}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -57
+  m_y: 325
+  m_z: 57
 --- !u!114 &1584300213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12143,8 +12293,8 @@ GameObject:
   - component: {fileID: 1634745007}
   - component: {fileID: 1634745006}
   - component: {fileID: 1634745005}
-  - component: {fileID: 1634745004}
   - component: {fileID: 1634745003}
+  - component: {fileID: 1634745004}
   m_Layer: 0
   m_Name: Laser (10)
   m_TagString: Untagged
@@ -12160,9 +12310,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1634745002}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: 0
+  m_y: 0
+  m_z: 0
 --- !u!114 &1634745004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12259,8 +12412,8 @@ GameObject:
   - component: {fileID: 1648716071}
   - component: {fileID: 1648716070}
   - component: {fileID: 1648716069}
-  - component: {fileID: 1648716068}
   - component: {fileID: 1648716067}
+  - component: {fileID: 1648716068}
   m_Layer: 0
   m_Name: Laser (12)
   m_TagString: Untagged
@@ -12276,9 +12429,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1648716066}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: 0
+  m_y: 0
+  m_z: 0
 --- !u!114 &1648716068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12866,8 +13022,8 @@ GameObject:
   - component: {fileID: 1718174537}
   - component: {fileID: 1718174536}
   - component: {fileID: 1718174535}
-  - component: {fileID: 1718174539}
   - component: {fileID: 1718174540}
+  - component: {fileID: 1718174539}
   m_Layer: 0
   m_Name: Cube (20)
   m_TagString: Untagged
@@ -12966,9 +13122,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1718174534}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -67
+  m_y: 244
+  m_z: -37
 --- !u!1 &1758869191
 GameObject:
   m_ObjectHideFlags: 0
@@ -13065,8 +13224,8 @@ GameObject:
   - component: {fileID: 1777204814}
   - component: {fileID: 1777204813}
   - component: {fileID: 1777204812}
-  - component: {fileID: 1777204811}
   - component: {fileID: 1777204810}
+  - component: {fileID: 1777204811}
   m_Layer: 0
   m_Name: Laser (3)
   m_TagString: Untagged
@@ -13082,9 +13241,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1777204809}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: 0
+  m_y: 0
+  m_z: 0
 --- !u!114 &1777204811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13181,8 +13343,8 @@ GameObject:
   - component: {fileID: 1786106728}
   - component: {fileID: 1786106727}
   - component: {fileID: 1786106726}
-  - component: {fileID: 1786106725}
   - component: {fileID: 1786106724}
+  - component: {fileID: 1786106725}
   m_Layer: 0
   m_Name: Laser (6)
   m_TagString: Untagged
@@ -13214,9 +13376,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1786106723}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -59
+  m_y: 323
+  m_z: 2
 --- !u!136 &1786106726
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -13555,7 +13720,7 @@ Transform:
   m_LocalScale: {x: 50, y: 10, z: 0.5}
   m_Children: []
   m_Father: {fileID: 895395749}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1848218951
 GameObject:
@@ -13568,8 +13733,8 @@ GameObject:
   - component: {fileID: 1848218956}
   - component: {fileID: 1848218955}
   - component: {fileID: 1848218954}
-  - component: {fileID: 1848218953}
   - component: {fileID: 1848218952}
+  - component: {fileID: 1848218953}
   m_Layer: 0
   m_Name: Laser (1)
   m_TagString: Untagged
@@ -13601,9 +13766,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1848218951}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -59
+  m_y: 323
+  m_z: 2
 --- !u!136 &1848218954
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -13684,8 +13852,8 @@ GameObject:
   - component: {fileID: 1853139253}
   - component: {fileID: 1853139252}
   - component: {fileID: 1853139251}
-  - component: {fileID: 1853139250}
   - component: {fileID: 1853139249}
+  - component: {fileID: 1853139250}
   m_Layer: 0
   m_Name: Laser (3)
   m_TagString: Untagged
@@ -13717,9 +13885,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1853139248}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -59
+  m_y: 323
+  m_z: 2
 --- !u!136 &1853139251
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -14110,8 +14281,8 @@ GameObject:
   - component: {fileID: 1918348340}
   - component: {fileID: 1918348339}
   - component: {fileID: 1918348338}
-  - component: {fileID: 1918348337}
   - component: {fileID: 1918348336}
+  - component: {fileID: 1918348337}
   m_Layer: 0
   m_Name: Laser (5)
   m_TagString: Untagged
@@ -14143,9 +14314,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1918348335}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -59
+  m_y: 323
+  m_z: 2
 --- !u!136 &1918348338
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -14467,8 +14641,8 @@ GameObject:
   - component: {fileID: 2017843027}
   - component: {fileID: 2017843026}
   - component: {fileID: 2017843025}
-  - component: {fileID: 2017843024}
   - component: {fileID: 2017843023}
+  - component: {fileID: 2017843024}
   m_Layer: 0
   m_Name: Laser (7)
   m_TagString: Untagged
@@ -14484,9 +14658,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2017843022}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: 0
+  m_y: 0
+  m_z: 0
 --- !u!114 &2017843024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14734,8 +14911,8 @@ GameObject:
   - component: {fileID: 2070358586}
   - component: {fileID: 2070358585}
   - component: {fileID: 2070358584}
-  - component: {fileID: 2070358583}
   - component: {fileID: 2070358582}
+  - component: {fileID: 2070358583}
   m_Layer: 0
   m_Name: Laser (2)
   m_TagString: Untagged
@@ -14767,9 +14944,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2070358581}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: -59
+  m_y: 323
+  m_z: 2
 --- !u!136 &2070358584
 CapsuleCollider:
   m_ObjectHideFlags: 0

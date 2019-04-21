@@ -13,7 +13,7 @@ public class finalTrigger : MonoBehaviour {
     {
         if (other.gameObject == player)
         {
-            Instantiate(wall, new Vector3(53.43f, 221.02f, 511.53f), Quaternion.identity);
+            Instantiate(wall, new Vector3(53.43f, 221.02f, 502f), Quaternion.identity);
             Destroy(secretDoor);
         }
     }

@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33689330216181124}
   - component: {fileID: 23343726022979648}
   - component: {fileID: 65036398824394522}
-  - component: {fileID: 114084114997205796}
+  - component: {fileID: 114783808165749294}
   m_Layer: 0
   m_Name: Cube (13)
   m_TagString: Untagged
@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 33864219690261520}
   - component: {fileID: 23185151929406502}
   - component: {fileID: 65511390568225758}
-  - component: {fileID: 114473840930911092}
+  - component: {fileID: 114403852820144890}
   m_Layer: 0
   m_Name: Cube (14)
   m_TagString: Untagged
@@ -214,18 +214,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114084114997205796
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1204305473476494}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114473840930911092
+--- !u!114 &114403852820144890
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -233,9 +222,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1620833329397720}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5da9ae187a02a48810de68a6263608, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_x: 0
+  m_y: 36
+  m_z: 210
 --- !u!114 &114578382289654342
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -252,3 +244,17 @@ MonoBehaviour:
   minZ: 100
   sleepTime: 0
   dir: 1
+--- !u!114 &114783808165749294
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1204305473476494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d40b255edc160b4aaeb2deb538cf97b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_x: 0
+  m_y: 36
+  m_z: 210
