@@ -68,10 +68,10 @@
      <Compile Include="Assets\Asset Store Assets\Standard Assets\Cameras\Scripts\PivotBasedCameraRig.cs" />
      <Compile Include="Assets\Asset Store Assets\Standard Assets\Cameras\Scripts\ProtectCameraFromWallClip.cs" />
      <Compile Include="Assets\Asset Store Assets\Standard Assets\Cameras\Scripts\TargetFieldOfView.cs" />
-     <Compile Include="Assets\Asset Store Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
-     <Compile Include="Assets\Asset Store Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController1.cs" />
-     <Compile Include="Assets\Asset Store Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController2.cs" />
-     <Compile Include="Assets\Asset Store Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController3.cs" />
+     <Compile Include="Assets\Asset Store Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\Controller.cs" />
+     <Compile Include="Assets\Asset Store Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\ControllerFloat.cs" />
+     <Compile Include="Assets\Asset Store Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\ControllerSuper.cs" />
+     <Compile Include="Assets\Asset Store Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\ControllerSuperFloat.cs" />
      <Compile Include="Assets\Asset Store Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
      <Compile Include="Assets\Asset Store Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Asset Store Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
@@ -169,10 +169,10 @@
      <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
      <Compile Include="Assets\Scripts\DeathTrigger.cs" />
      <Compile Include="Assets\Scripts\DWalls.cs" />
+     <Compile Include="Assets\Scripts\Escape.cs" />
      <Compile Include="Assets\Scripts\fallKill.cs" />
      <Compile Include="Assets\Scripts\finalTrigger.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
-     <Compile Include="Assets\Scripts\laserKill.cs" />
      <Compile Include="Assets\Scripts\LaserNZ.cs" />
      <Compile Include="Assets\Scripts\LaserX.cs" />
      <Compile Include="Assets\Scripts\LaserXY.cs" />
@@ -180,6 +180,7 @@
      <Compile Include="Assets\Scripts\LaserZ.cs" />
      <Compile Include="Assets\Scripts\LevelTransition.cs" />
      <Compile Include="Assets\Scripts\platformStick.cs" />
+     <Compile Include="Assets\Scripts\ResetBlock.cs" />
      <Compile Include="Assets\Scripts\SceneLoader.cs" />
      <Compile Include="Assets\Scripts\SceneTransition.cs" />
      <Compile Include="Assets\Scripts\spin.cs" />
