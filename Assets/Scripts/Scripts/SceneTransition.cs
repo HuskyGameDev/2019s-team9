@@ -7,11 +7,6 @@ public class SceneTransition : MonoBehaviour
 {
     /// <summary>
     /// Loads the scene.
-    /// The scene indexes are as follows:
-    ///     MainMenu    = 0
-    ///     LevelSelect = 1
-    ///     QuitGame    = 2
-    ///     Gameplay    = 3
     /// </summary>
     /// <param name="scene_index">Scene index.</param>
     public void LoadScene (int scene_index)
@@ -32,12 +27,12 @@ public class SceneTransition : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-        /*/
+        
 	    if (Input.GetButtonDown("Cancel"))     
 		{
 			GM.TogglePauseMenu();
 		}
-        */
+        
     }
 
 
